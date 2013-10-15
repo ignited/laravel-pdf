@@ -1,0 +1,24 @@
+{
+    "name": "ignited/laravel-pdf",
+    "description": "Provides the HTML2PDF functionality using the wkhtmltopdf library",
+    "keywords": ["pdf", "wkhtmltopdf", "laravel", "laravel4"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alex Whiteside",
+            "email": "alexwhiteside@ignitedlabs.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "mikehaertl/phpwkhtmltopdf": "1.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ignited\\Pdf": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
