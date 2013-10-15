@@ -14,10 +14,10 @@ class PdfFactory {
 	{
 		$wkhtml = new WkHtmlToPdf($this->config);
 
-		// if($options)
-		// {
-		// 	$wkhtml->setPageOptions($options);
-		// }
+		if(!empty($options))
+		{
+			$wkhtml->setPageOptions($options);
+		}
 
 		return $wkhtml;
 	}

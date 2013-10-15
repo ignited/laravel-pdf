@@ -3,7 +3,7 @@
     "description": "Provides the HTML2PDF functionality using the wkhtmltopdf library",
     "keywords": ["pdf", "wkhtmltopdf", "laravel", "laravel4"],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Alex Whiteside",
