@@ -24,12 +24,12 @@ class PdfServiceProvider extends ServiceProvider {
         {
         	$config = $app['config']['laravel-pdf'] ?: $app['config']['laravel-pdf::config'];
 
-        	if(!$config || !$config['bin'])
+        	if(!$config || !$config['binPath'])
         	{
         		throw new \RunTimeException('Bin path for wkhtmltopdf is not configured.');
         	}
 
-        	if(!file_exists($config['bin']))
+        	if(!file_exists($config['binPath']))
         	{
         		throw new \RunTimeException('Cannot find bin for wkhtmltopdf - have you included it in composer?');
         	}
