@@ -47,7 +47,7 @@ To use the PDF Service Provider, you must register the provider when bootstrappi
 Publish the package configuration using Artisan.
 
 ```sh
-php artisan config:publish ignited/laravel-pdf
+php artisan vendor:publish --tag="config"
 ```
 
 Update your settings in the generated `app/config/packages/ignited/laravel-pdf` configuration file.
